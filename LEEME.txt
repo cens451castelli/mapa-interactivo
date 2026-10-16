@@ -1,0 +1,53 @@
+MAPA INTERACTIVO DE CASTELLI
+============================
+
+INICIO RÁPIDO
+1. Extraé toda la carpeta "MapaCastelli".
+2. Copiá tu mapa PNG a esta carpeta y renombralo exactamente: mapa.png
+3. Abrí index.html con Firefox, Chrome o Edge.
+4. Editá config.js para cambiar nombres, coordenadas, descripciones y fotos.
+
+ESTRUCTURA
+- index.html: la página interactiva.
+- config.js: configuración de los lugares.
+- mapa.png: tu mapa de 2810 x 2842 píxeles.
+- punto1/, punto2/, etc.: fotografías de cada lugar.
+
+FOTOS
+Por defecto, el proyecto busca archivos JPG.
+En cada carpeta:
+- portada.jpg: miniatura que aparece al pasar el cursor.
+- 1.jpg, 2.jpg, 3.jpg...: fotos que aparecen en la ficha ampliada.
+
+Si las imágenes son PNG, podés cambiar la extensión global en config.js:
+  extensionFotos: ".png"
+También podés indicar una extensión distinta por lugar:
+  extension: ".webp"
+
+La propiedad "fotos" enumera las fotos de la galería. Por ejemplo:
+  fotos: ["1.jpg", "2.jpg", "3.jpg"]
+
+COORDENADAS
+Cada lugar tiene x e y, expresadas como porcentajes del mapa:
+- x: 0 es el borde izquierdo; x: 100 es el derecho.
+- y: 0 es el borde superior; y: 100 es el inferior.
+- x: 50, y: 50 coloca el punto en el centro.
+
+Para ubicar un punto:
+1. Abrí el mapa en pantalla.
+2. Estimá la posición horizontal y vertical como porcentaje.
+3. Cambiá x e y en config.js.
+4. Guardá el archivo y recargá index.html.
+
+CONTROLES
+- Arrastrar con el mouse: mover el mapa.
+- Rueda del mouse o botones + y −: zoom.
+- "Ver mapa completo": volver a la vista inicial.
+- Pasar el cursor por un punto: vista previa.
+- Clic en un punto: ficha completa.
+- Escape o clic fuera de la ficha: cerrar.
+
+NOTA SOBRE USO LOCAL
+No necesita servidor ni Internet. Mantené todos los archivos juntos y conservá los nombres
+de carpetas y fotos. Por seguridad, los navegadores no pueden listar automáticamente el
+contenido de carpetas locales; por eso la galería se define en config.js.
