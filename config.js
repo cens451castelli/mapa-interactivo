@@ -26,22 +26,31 @@ window.MAPA_CONFIG = {
 
   puntos: [
     {
-      id: "punto1",
+      id: "1",
       carpeta: "punto1",
-      x: 50,
-      y: 50,
+      x: 23.23,
+      y: 35.18, 
       nombre: "Plaza de la Juventud",
       descripcion: "Escribí acá una breve descripción de este lugar. Podés usar varias líneas.",
       fotos: ["1.jpeg", "2.jpeg"]
     },
     {
-      id: "punto2",
+      id: "2",
       carpeta: "punto2",
-      x: 65,
-      y: 38,
-      nombre: "Ejemplo: Estación de tren",
+      x: 56.22,
+      y: 28.14,
+      nombre: "Plaza de la Memoria",
       descripcion: "Reemplazá este texto por la descripción del lugar.",
-      fotos: ["1.jpg", "2.jpg"]
+      fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg"]
+    },
+    {
+      id: "3",
+      carpeta: "punto3",
+      x: 29.60,
+      y: 62.77,
+      nombre: "Mural de la memoria Ex EESN°1",
+      descripcion: "Reemplazá este texto por la descripción del lugar.",
+      fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"]
     }
   ]
 };
