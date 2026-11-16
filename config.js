@@ -62,7 +62,7 @@ window.MAPA_CONFIG = {
       fotos: ["1.jpeg", "2.jpeg"]
     },
     {
-      id: "5",
+      id: "6",
       carpeta: "punto5",
       x: 43.27,
       y: 35.18,
@@ -71,7 +71,7 @@ window.MAPA_CONFIG = {
       fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg", "8.jpeg", "9.jpeg", "10.jpeg"]
     },
     {
-      id: "6",
+      id: "5",
       carpeta: "punto6",
       x: 50,
       y: 50,
