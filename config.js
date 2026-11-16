@@ -32,7 +32,7 @@ window.MAPA_CONFIG = {
       y: 35.18, 
       nombre: "Plaza de la Juventud",
       descripcion: "Escribí acá una breve descripción de este lugar. Podés usar varias líneas.",
-      fotos: ["1.jpeg", "2.jpeg"]
+      fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg", "8.jpeg", "9.jpeg"]
     },
     {
       id: "2",
@@ -41,7 +41,7 @@ window.MAPA_CONFIG = {
       y: 28.14,
       nombre: "Plaza de la Memoria",
       descripcion: "Reemplazá este texto por la descripción del lugar.",
-      fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg"]
+      fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg", "8.jpeg", "9.jpeg", "10.jpeg", "11.jpeg", "12.jpeg", "13.jpeg", "14.jpeg"]
     },
     {
       id: "3",
@@ -51,6 +51,33 @@ window.MAPA_CONFIG = {
       nombre: "Mural de la memoria Ex EESN°1",
       descripcion: "Reemplazá este texto por la descripción del lugar.",
       fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg"]
+    },
+    {
+      id: "4",
+      carpeta: "punto4",
+      x: 13.30,
+      y: 53.83,
+      nombre: "Plaza 'Islas Malvinas'",
+      descripcion: "Reemplazá este texto por la descripción del lugar.",
+      fotos: ["1.jpeg", "2.jpeg"]
+    },
+    {
+      id: "5",
+      carpeta: "punto5",
+      x: 43.27,
+      y: 35.18,
+      nombre: "Mural CENS N°451",
+      descripcion: "Reemplazá este texto por la descripción del lugar.",
+      fotos: ["1.jpeg", "2.jpeg", "3.jpeg", "4.jpeg", "5.jpeg", "6.jpeg", "7.jpeg", "8.jpeg", "9.jpeg", "10.jpeg"]
+    },
+    {
+      id: "6",
+      carpeta: "punto6",
+      x: 50,
+      y: 50,
+      nombre: "Museo",
+      descripcion: "Reemplazá este texto por la descripción del lugar.",
+      fotos: ["1.jpeg", "2.jpeg"]
     }
   ]
 };
